@@ -17,6 +17,4 @@
   <rect x="18" y="22" width="104" height="60" rx="12" fill="url(#body)"/>
   <rect x="23" y="26" width="94" height="6" rx="3" fill="url(#gloss)"/>
   <rect x="18" y="22" width="104" height="60" rx="12" stroke="#5f76c1" stroke-opacity=".35"/>
-  <circle cx="24" cy="74" r="17" fill="#f1f2f4" stroke="#d0d2d8"/>
-  <path d="M18 74h8.5l3.25-8.5M26.5 74c7 0 10.5-3.5 13.5-10.5M24 73l7 7m0 0 7-7m-7 7V57" stroke="#22252c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
