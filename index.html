@@ -134,7 +134,26 @@
             </div>
             <svg aria-hidden="true" viewBox="0 0 100 24"><path d="M2 12h88m0 0-10-9m10 9-10 9"/></svg>
             <div class="applications-folder" aria-hidden="true">
-              <img src="assets/applications-folder-clean.svg" alt="">
+              <svg viewBox="0 0 140 120" fill="none">
+                <defs>
+                  <linearGradient id="tab" x1="18" y1="8" x2="18" y2="26" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#9fb0e7"/>
+                    <stop offset="1" stop-color="#6e82c8"/>
+                  </linearGradient>
+                  <linearGradient id="body" x1="70" y1="20" x2="70" y2="84" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#aebbe9"/>
+                    <stop offset="1" stop-color="#7e94da"/>
+                  </linearGradient>
+                  <linearGradient id="gloss" x1="70" y1="24" x2="70" y2="38" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#ffffff" stop-opacity=".95"/>
+                    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path d="M20 14c0-3.314 2.686-6 6-6h29c2.21 0 4.314.976 5.742 2.67L66 14h39c3.314 0 6 2.686 6 6v8H20V14Z" fill="url(#tab)"/>
+                <rect x="18" y="22" width="104" height="60" rx="12" fill="url(#body)"/>
+                <rect x="23" y="26" width="94" height="6" rx="3" fill="url(#gloss)"/>
+                <rect x="18" y="22" width="104" height="60" rx="12" stroke="#5f76c1" stroke-opacity=".35"/>
+              </svg>
               <span>Applications</span>
             </div>
           </div>
