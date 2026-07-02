@@ -132,10 +132,9 @@ button { font: inherit; }
 .install-item { display: grid; place-items: center; gap: 8px; font-size: 13px; font-weight: 650; }
 .install-item img { width: 75px; border-radius: 18px; }
 .installer-demo svg { width: 100%; fill: none; stroke: var(--orange); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.applications-folder { position: relative; width: 108px; height: 78px; margin: auto; border-radius: 10px 15px 15px 15px; overflow: hidden; background: linear-gradient(180deg, #56b5ff, #3b93df); box-shadow: inset 0 -8px 12px rgba(0,66,140,.15), 0 12px 24px rgba(24,79,135,.18); }
-.applications-folder .folder-tab { position: absolute; top: 0; left: 12px; width: 38px; height: 16px; border-radius: 7px 7px 0 0; background: linear-gradient(180deg, #7bc7ff, #58aef0); box-shadow: inset 0 1px 0 rgba(255,255,255,.35); }
-.applications-folder .folder-body { position: absolute; inset: 13px 0 0; display: grid; place-items: center; border-radius: 12px 14px 14px 14px; background: linear-gradient(180deg, rgba(255,255,255,.09), rgba(0,0,0,.04)); }
-.applications-folder .folder-body span { font-size: 14px; font-weight: 700; letter-spacing: .01em; color: #fff; text-shadow: 0 1px 1px rgba(0,0,0,.22); }
+.applications-folder { width: 124px; margin: auto; display: grid; justify-items: center; gap: 10px; }
+.applications-folder img { width: 100%; height: auto; display: block; filter: drop-shadow(0 10px 15px rgba(24,79,135,.16)); }
+.applications-folder span { font-size: 15px; font-weight: 500; color: #232327; }
 .duration-demo { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px; padding: 25px; }
 .duration-demo span { padding: 12px 16px; border: 1px solid var(--line); border-radius: 10px; color: #555; font-size: 14px; }
 .duration-demo .selected { color: var(--orange-deep); border-color: #ffbb86; background: var(--orange-soft); }
@@ -241,10 +240,8 @@ footer > span { justify-self: end; color: var(--muted); font-size: 13px; }
   .step-number { font-size: 58px; }
   .installer-demo { grid-template-columns: 1fr 65px 1fr; padding: 20px; }
   .install-item img { width: 58px; }
-  .applications-folder { width: 82px; height: 60px; }
-  .applications-folder .folder-tab { left: 8px; width: 28px; height: 12px; }
-  .applications-folder .folder-body { inset: 10px 0 0; }
-  .applications-folder .folder-body span { font-size: 10px; }
+  .applications-folder { width: 92px; gap: 7px; }
+  .applications-folder span { font-size: 11px; }
   .use-list > div { grid-template-columns: 1fr; gap: 5px; }
   .details { gap: 50px; }
   .tech-row { font-size: 13px; }
