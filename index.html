@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ONScreen keeps your Mac display awake for as long as you choose—Infinite, a preset, or a custom duration.">
+  <meta name="theme-color" content="#ffffff">
+  <title>ONScreen — Keep your Mac awake, on your terms</title>
+  <link rel="icon" href="assets/onscreen-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="ONScreen home">
+      <img src="assets/onscreen-icon.png" alt="" width="42" height="42">
+      <span>ONScreen</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#details">Details</a>
+    </nav>
+    <a class="button button-small" href="downloads/ONScreen-1.3.dmg" download>Download</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <h1>Keep your Mac awake.<br><span>On your terms.</span></h1>
+        <p>One click prevents display sleep and automatic idle lock. Choose Infinite, a preset, or type an exact duration.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="downloads/ONScreen-1.3.dmg" download>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 20h14"/></svg>
+            Download for Mac
+          </a>
+          <a class="text-link" href="#how">See how it works <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="download-note">ONScreen 1.3 · macOS 14 or later · Universal app</p>
+      </div>
+
+      <div class="hero-product reveal" data-delay="120">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="app-window app-window-hero">
+          <div class="window-bar" aria-hidden="true">
+            <i class="dot red"></i><i class="dot yellow"></i><i class="dot green"></i>
+            <span>ONScreen</span>
+          </div>
+          <img src="assets/app-active.png" alt="Actual ONScreen app showing a 30-minute active session with 29:59 remaining">
+        </div>
+        <img class="floating-icon" src="assets/onscreen-icon.png" alt="ONScreen app icon">
+      </div>
+    </section>
+
+    <div class="fact-rail" aria-label="Compatibility and privacy">
+      <span>macOS 14+</span>
+      <span>Intel + Apple silicon</span>
+      <span>No account</span>
+      <span>No data collected</span>
+    </div>
+
+    <section class="feature-story section" id="features">
+      <div class="section-heading reveal">
+        <h2>Control sleep.<br><span>Your way.</span></h2>
+        <p>Start with Infinite, choose a preset, or type any duration from 1 to 720 minutes. Timed sessions show the exact time left and stop automatically.</p>
+      </div>
+
+      <div class="product-story reveal">
+        <div class="story-copy">
+          <button class="story-tab is-active" type="button" data-shot="off" aria-pressed="true">
+            <strong>Infinite by default</strong>
+            <span>The duration starts at Infinite, while the app itself always launches OFF.</span>
+          </button>
+          <button class="story-tab" type="button" data-shot="active" aria-pressed="false">
+            <strong>Timed sessions</strong>
+            <span>Choose 15 or 30 minutes, 1 or 2 hours, or type a custom number of minutes.</span>
+          </button>
+          <button class="story-tab" type="button" data-shot="countdown" aria-pressed="false">
+            <strong>Automatic finish</strong>
+            <span>The live countdown reaches zero, ONScreen turns off, and normal sleep resumes.</span>
+          </button>
+        </div>
+
+        <div class="shot-stage" aria-live="polite">
+          <div class="app-window">
+            <div class="window-bar" aria-hidden="true">
+              <i class="dot red"></i><i class="dot yellow"></i><i class="dot green"></i>
+              <span>Actual app screenshot</span>
+            </div>
+            <img data-product-shot src="assets/app-off.png" alt="Actual ONScreen app in its OFF state with Infinite selected">
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-line reveal">
+        <article>
+          <span class="feature-number">01</span>
+          <h3>Always deliberate</h3>
+          <p>ONScreen opens OFF. Your display is only held awake after you click the button.</p>
+        </article>
+        <article>
+          <span class="feature-number">02</span>
+          <h3>Visible at a glance</h3>
+          <p>The window and menu-bar icon clearly distinguish OFF from an active session.</p>
+        </article>
+        <article>
+          <span class="feature-number">03</span>
+          <h3>Manual lock remains</h3>
+          <p>ONScreen postpones automatic idle lock, but you can still lock your Mac manually.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how section" id="how">
+      <div class="section-heading centered reveal">
+        <h2>Three steps. Zero fuss.</h2>
+        <p>From download to an awake display in under a minute.</p>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <div class="step-number">1</div>
+          <div class="step-copy">
+            <h3>Install ONScreen</h3>
+            <p>Open the DMG and drag ONScreen into Applications. The installer includes a direct Applications shortcut.</p>
+          </div>
+          <div class="installer-demo" aria-label="Installer layout illustration">
+            <div class="install-item">
+              <img src="assets/onscreen-icon.png" alt="ONScreen">
+              <span>ONScreen</span>
+            </div>
+            <svg aria-hidden="true" viewBox="0 0 100 24"><path d="M2 12h88m0 0-10-9m10 9-10 9"/></svg>
+            <div class="applications-folder" aria-hidden="true"><span>A</span></div>
+          </div>
+        </li>
+
+        <li class="step reveal">
+          <div class="step-number">2</div>
+          <div class="step-copy">
+            <h3>Choose how long</h3>
+            <p>Leave Infinite selected, pick a preset, or choose Custom and type from 1 to 720 minutes.</p>
+          </div>
+          <div class="duration-demo" aria-label="Duration options available in ONScreen">
+            <span class="selected">Infinite</span><span>15 min</span><span>30 min</span><span>1 hr</span><span>2 hr</span><span>Custom</span>
+          </div>
+        </li>
+
+        <li class="step reveal">
+          <div class="step-number">3</div>
+          <div class="step-copy">
+            <h3>Click Keep Screen On</h3>
+            <p>The status changes to ON · SCREEN AWAKE. Close the window if you like—ONScreen remains in the menu bar.</p>
+          </div>
+          <div class="active-demo">
+            <span class="sun-icon" aria-hidden="true">☀</span>
+            <div><strong>ON · SCREEN AWAKE</strong><span>29:59 remaining</span></div>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="use-cases section" aria-labelledby="use-title">
+      <div class="section-heading reveal">
+        <h2 id="use-title">Made for the moments that should not dim.</h2>
+        <p>A tiny utility for the ordinary times when macOS sleep gets in the way.</p>
+      </div>
+      <div class="use-list reveal">
+        <div><span>Presentations</span><p>Keep notes, slides, and reference screens visible between interactions.</p></div>
+        <div><span>Recipes</span><p>Leave instructions on screen while your hands are busy.</p></div>
+        <div><span>Dashboards</span><p>Watch status boards and long-running work without nudging the trackpad.</p></div>
+        <div><span>Long reads</span><p>Give dense documents and research the time they deserve.</p></div>
+      </div>
+    </section>
+
+    <section class="details section" id="details">
+      <div class="details-copy reveal">
+        <h2>Small utility.<br>Thoughtful details.</h2>
+        <dl>
+          <div><dt>Launches off</dt><dd>Nothing is kept awake until you explicitly enable ONScreen.</dd></div>
+          <div><dt>Menu bar ready</dt><dd>Open the app, change the duration, check for updates, or quit from the menu bar.</dd></div>
+          <div><dt>Signed updates</dt><dd>Direct-download builds use Sparkle and an embedded Ed25519 public key to verify update archives.</dd></div>
+          <div><dt>Local by design</dt><dd>No account, analytics, advertising, or data collection.</dd></div>
+        </dl>
+      </div>
+      <div class="technical-panel reveal" data-delay="120">
+        <div class="tech-top">
+          <img src="assets/onscreen-icon.png" alt="" width="64" height="64">
+          <div><strong>ONScreen 1.3</strong><span>Universal macOS application</span></div>
+        </div>
+        <div class="tech-row"><span>Minimum system</span><strong>macOS 14</strong></div>
+        <div class="tech-row"><span>Processors</span><strong>Intel &amp; Apple silicon</strong></div>
+        <div class="tech-row"><span>Startup state</span><strong>OFF · Infinite selected</strong></div>
+        <div class="tech-row"><span>Custom range</span><strong>1–720 minutes</strong></div>
+        <div class="tech-row"><span>Manual lock</span><strong>Still available</strong></div>
+        <div class="tech-row"><span>Account / tracking</span><strong>None</strong></div>
+      </div>
+    </section>
+
+    <section class="faq section" aria-labelledby="faq-title">
+      <div class="section-heading reveal"><h2 id="faq-title">Questions, answered.</h2></div>
+      <div class="faq-list reveal">
+        <details><summary>Does ONScreen stop my Mac from locking manually?</summary><p>No. You can still use Apple menu → Lock Screen or Control–Command–Q. ONScreen postpones automatic idle lock only while active.</p></details>
+        <details><summary>What happens when a timer ends?</summary><p>ONScreen releases its display and user-activity assertions, changes to OFF, and allows normal macOS sleep behavior to resume.</p></details>
+        <details><summary>What happens if I quit the app?</summary><p>The active assertions are released when ONScreen exits, so the app must remain running to keep the display awake.</p></details>
+        <details><summary>Will it run on an Intel Mac with 16 GB of RAM?</summary><p>Yes. ONScreen is a universal macOS app and the website is plain static HTML, CSS, and JavaScript. Neither needs a heavy framework.</p></details>
+        <details><summary>How do updates work?</summary><p>The direct-download app checks a public HTTPS appcast and verifies update archives with its embedded Ed25519 public key before installation.</p></details>
+      </div>
+    </section>
+
+    <section class="download-section reveal" id="download">
+      <div>
+        <h2>Your screen, when you need it.</h2>
+        <p>Download ONScreen for presentations, recipes, dashboards, long reads, and everything that deserves to stay visible.</p>
+        <a class="button button-light" href="downloads/ONScreen-1.3.dmg" download>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 20h14"/></svg>
+          Download ONScreen 1.3
+        </a>
+        <span>DMG installer · about 4 MB</span>
+      </div>
+      <img src="assets/onscreen-icon.png" alt="ONScreen app icon">
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><img src="assets/onscreen-icon.png" alt="" width="38" height="38"><span>ONScreen</span></a>
+    <div><a href="#features">Features</a><a href="#how">How it works</a><a href="https://github.com/LeBronFanCW/ONScreen-Updates">GitHub</a></div>
+    <span>Built for macOS</span>
+  </footer>
+</body>
+</html>
